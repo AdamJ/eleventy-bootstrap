@@ -1,0 +1,20 @@
+<container>
+  <nav class="navbar navbar-expand-md bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-md-flex" id="navbarNavAltMarkup">
+        <div class="navbar-nav col-md-6 justify-content-md-center">
+          <a class="navbar-brand col-md-1 me-0 text-center" {% if currentURL === '/' %} aria-current="page" {% endif %} href="/">
+            <img src="{{ "/img/navbar-logo.png" | url }}" alt="Avatar" width="32" height="32">
+          </a>
+          <a class="nav-link {% if '/page' in page.url %}active{% endif %}" href="/page" alt="Link to a page">Page</a>
+        </div>
+        <div class="navbar-nav d-md-flex col-md-3 justify-content-md-end">
+          <a class="nav-link {% if '/contact' in page.url %}active{% endif %}" href="{{ "/contact" | url }}" alt="Contact me">contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</container>

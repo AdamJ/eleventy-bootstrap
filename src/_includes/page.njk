@@ -1,0 +1,20 @@
+---
+layout: base.njk
+---
+
+<div class="container-xxl intro py-3 px-0 px-md-5 text-center">
+  <h1 class="display-1 fw-bold text-break">{{ title }}</h1>
+  <p class="sub-header text-break px-2 px-md-0">
+    {{ description }}
+  </p>
+  {# If headerButton: true is set in the page's FrontMatter, display it here #}
+  {%- if (headerButton) -%}
+  <a class="btn btn-outline-secondary btn-lg" href="{{ primaryURL}}" | url }}" type="button">{{ primaryAction }}</a>
+  {%- else -%}
+  {# If headerButton: false, display nothing #}
+  {%- endif -%}
+</div>
+
+<content>
+  {{ content | safe }}
+</content>

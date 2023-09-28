@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Eleventy-Bootstrap Starter Project</title>
+	<subtitle>This is a template for creating Eleventy sites using Bootstrap.</subtitle>
+	
+	<link href="http://localhost:8080/feed/" rel="self"/>
+	<link href="http://localhost:8080"/>
+	<updated>2023-09-28T16:59:39Z</updated>
+	<id>http://localhost:8080</id>
+	<author>
+		<name>Adam J. Jolicoeur</name>
+	</author>
+</feed>

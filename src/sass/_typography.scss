@@ -1,0 +1,44 @@
+// All styles contained wherein are from Bootstrap and are added to enhance Markdown rendering.
+// Feel free to remove if desired.
+
+// replace link coloring and text underline from headers rendered from Markdown to .text-primary-emphasis
+h1, h2, h3, h4, h5 {
+  a {
+    @extend .text-primary-emphasis;
+    text-decoration: none !important;
+  }
+}
+
+// style code blocks and code snippets to use monospace
+// add a rounded border with padding around code blocks
+// add color to text
+pre {
+  @extend .border;
+  @extend .border-black;
+  @extend .rounded;
+  @extend .p-4;
+  @extend .text-info-emphasis;
+}
+code {
+  @extend .font-monospace;
+}
+
+// style block quotes to have quotations marks around them
+blockquote > p {
+  @extend .blockquote;
+  &::before {
+    content: "'";
+  }
+  &::after {
+    content: "'";
+  }
+}
+blockquote blockquote > p {
+  @extend .blockquote-footer;
+  &::before {
+    content: "- ";
+  }
+  &::after {
+    content: "";
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "author": "Adam J. Jolicoeur",
+  "description": "This is a template for creating Eleventy sites using Bootstrap.",
+  "name": "Eleventy-Bootstrap Starter Project",
+  "short_name": "short-name",
+  "lang": "en-US",
+  "display": "standalone",
+  "orientation": "portrait"
+}

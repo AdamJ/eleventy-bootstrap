@@ -1,0 +1,16 @@
+[
+	{
+   "title":"page",
+   "imgName":"page"
+	},
+
+	{
+   "title":"contact",
+   "imgName":"contact"
+	},
+
+	{
+   "title":"Eleventy-bootstrap",
+   "imgName":"eleventy-bootstrap"
+	}
+]
