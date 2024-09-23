@@ -6,5 +6,6 @@ module.exports = {
   authorName: "Adam J. Jolicoeur",
   siteMeta:"Eleventy, 11ty, eleventy-template, bootstrap, eleventy-boostrap, github-template",
   packageVersion: "packageVersion",
-  githubTemplateURL: "https://github.com/AdamJ/eleventy-bootstrap"
+  githubTemplateURL: "https://github.com/AdamJ/eleventy-bootstrap",
+  siteURL: ""
 };

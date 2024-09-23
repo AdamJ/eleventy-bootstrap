@@ -15,7 +15,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addWatchTarget("src/sass/*.scss");
 
-    eleventyConfig.addPassthroughCopy("src/webfonts");
+  eleventyConfig.addPassthroughCopy("src/webfonts");
   eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.addPassthroughCopy("src/favicon.*");
   eleventyConfig.addPassthroughCopy("src/manifest.json");
